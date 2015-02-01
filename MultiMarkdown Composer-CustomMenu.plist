@@ -12,7 +12,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "About MultiMarkdown Composer";
+                    newTitle = "A propos de MultiMarkdown Composer";
                     originalTitle = "About MultiMarkdown Composer";
                 },
                                 {
@@ -47,7 +47,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Hide MultiMarkdown Composer";
+                    newTitle = "Cacher MultiMarkdown Composer";
                     originalTitle = "Hide MultiMarkdown Composer";
                 },
                                 {
@@ -65,7 +65,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show All";
+                    newTitle = "Afficher tout";
                     originalTitle = "Show All";
                 },
                                 {
@@ -80,7 +80,7 @@
             );
         },
                 {
-            newTitle = File;
+            newTitle = Fichier;
             originalTitle = File;
             subItems =             (
                                 {
@@ -89,7 +89,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = New;
+                    newTitle = Nouveau;
                     originalTitle = New;
                 },
                                 {
@@ -98,12 +98,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Open\U2026";
+                    newTitle = "Ouvrir\U2026";
                     originalTitle = "Open\U2026";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Open Recent";
+                        newTitle = "Ouvrir un élément récent";
                         originalTitle = "Open Recent";
                         subItems =                         (
                                                         {
@@ -133,7 +133,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Close;
+                    newTitle = Fermer;
                     originalTitle = Close;
                 },
                                 {
@@ -151,7 +151,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Save\U2026";
+                    newTitle = "Enregistrer\U2026";
                     originalTitle = "Save\U2026";
                 },
                                 {
@@ -178,7 +178,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Page Setup\U2026";
+                    newTitle = "Réglages de la page\U2026";
                     originalTitle = "Page Setup\U2026";
                 },
                                 {
@@ -187,7 +187,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Print Text\U2026";
+                    newTitle = "Imprimer le texte\U2026";
                     originalTitle = "Print Text\U2026";
                 },
                                 {
@@ -211,7 +211,7 @@
             );
         },
                 {
-            newTitle = Edit;
+            newTitle = Edition;
             originalTitle = Edit;
             subItems =             (
                                 {
@@ -220,7 +220,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Undo;
+                    newTitle = Annuler l'action;
                     originalTitle = Undo;
                 },
                                 {
@@ -238,7 +238,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Cut;
+                    newTitle = Couper;
                     originalTitle = Cut;
                 },
                                 {
@@ -247,7 +247,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Copy;
+                    newTitle = Copier;
                     originalTitle = Copy;
                 },
                                 {
@@ -526,7 +526,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Find;
+                        newTitle = Rechercher;
                         originalTitle = Find;
                         subItems =                         (
                                                         {
@@ -553,7 +553,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find Next";
+                                newTitle = "Rechercher le suivant";
                                 originalTitle = "Find Next";
                             },
                                                         {
@@ -580,7 +580,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Jump to Selection";
+                                newTitle = "Aller à la sélection";
                                 originalTitle = "Jump to Selection";
                             }
                         );
@@ -738,7 +738,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Speech;
+                        newTitle = Parler;
                         originalTitle = Speech;
                         subItems =                         (
                                                         {
@@ -747,7 +747,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Start Speaking";
+                                newTitle = "Commencer à parler";
                                 originalTitle = "Start Speaking";
                             },
                                                         {
@@ -756,7 +756,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Stop Speaking";
+                                newTitle = "Arrêter de parler";
                                 originalTitle = "Stop Speaking";
                             }
                         );
@@ -1258,7 +1258,7 @@
             );
         },
                 {
-            newTitle = Window;
+            newTitle = Fenêtre;
             originalTitle = Window;
             subItems =             (
                                 {
@@ -1267,7 +1267,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Minimize;
+                    newTitle = Minimiser;
                     originalTitle = Minimize;
                 },
                                 {
@@ -1294,7 +1294,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Bring All to Front";
+                    newTitle = "Ramener tout au premier plan";
                     originalTitle = "Bring All to Front";
                 },
                                 {
