@@ -12,7 +12,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "About MultiMarkdown Composer";
+                    newTitle = "Über MultiMarkdown Composer";
                     originalTitle = "About MultiMarkdown Composer";
                 },
                                 {
@@ -30,12 +30,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Preferences\U2026";
+                    newTitle = "Einstellungen \U2026";
                     originalTitle = "Preferences\U2026";
                 },
                                 {
                     submenu =                     {
-                        newTitle = Services;
+                        newTitle = Dienste;
                         originalTitle = Services;
                         subItems =                         (
                         );
@@ -47,7 +47,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Hide MultiMarkdown Composer";
+                    newTitle = "MultiMarkdown Composer ausblenden";
                     originalTitle = "Hide MultiMarkdown Composer";
                 },
                                 {
@@ -56,7 +56,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Hide Others";
+                    newTitle = "Andere ausblenden";
                     originalTitle = "Hide Others";
                 },
                                 {
@@ -65,7 +65,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show All";
+                    newTitle = "Alle einblenden";
                     originalTitle = "Show All";
                 },
                                 {
@@ -74,13 +74,13 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Quit MultiMarkdown Composer";
+                    newTitle = "MultiMarkdown Composer beenden";
                     originalTitle = "Quit MultiMarkdown Composer";
                 }
             );
         },
                 {
-            newTitle = File;
+            newTitle = Ablage;
             originalTitle = File;
             subItems =             (
                                 {
@@ -89,7 +89,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = New;
+                    newTitle = Neu;
                     originalTitle = New;
                 },
                                 {
@@ -98,12 +98,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Open\U2026";
+                    newTitle = "Öffnen \U2026";
                     originalTitle = "Open\U2026";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Open Recent";
+                        newTitle = "Benutzte Dokumente";
                         originalTitle = "Open Recent";
                         subItems =                         (
                                                         {
@@ -133,7 +133,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Close;
+                    newTitle = Schließen;
                     originalTitle = Close;
                 },
                                 {
@@ -151,7 +151,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Save\U2026";
+                    newTitle = "Sichern \U2026";
                     originalTitle = "Save\U2026";
                 },
                                 {
@@ -169,7 +169,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Revert to Saved";
+                    newTitle = "Zurück zur letzten Version";
                     originalTitle = "Revert to Saved";
                 },
                                 {
@@ -178,7 +178,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Page Setup\U2026";
+                    newTitle = "Papierformat \U2026";
                     originalTitle = "Page Setup\U2026";
                 },
                                 {
@@ -211,7 +211,7 @@
             );
         },
                 {
-            newTitle = Edit;
+            newTitle = Bearbeiten;
             originalTitle = Edit;
             subItems =             (
                                 {
@@ -220,7 +220,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Undo;
+                    newTitle = Widerrufen;
                     originalTitle = Undo;
                 },
                                 {
@@ -229,7 +229,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 1;
-                    newTitle = Redo;
+                    newTitle = Wiederholen;
                     originalTitle = Redo;
                 },
                                 {
@@ -238,7 +238,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Cut;
+                    newTitle = Ausschneiden;
                     originalTitle = Cut;
                 },
                                 {
@@ -247,7 +247,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Copy;
+                    newTitle = Kopieren;
                     originalTitle = Copy;
                 },
                                 {
@@ -300,7 +300,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Paste;
+                    newTitle = Einsetzen;
                     originalTitle = Paste;
                 },
                                 {
@@ -358,7 +358,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Selection;
+                        newTitle = Auswahl;
                         originalTitle = Selection;
                         subItems =                         (
                                                         {
@@ -368,7 +368,7 @@
                                 modCtrl = 0;
                                 modShift = 0;
                                 newTitle = "Select All";
-                                originalTitle = "Select All";
+                                originalTitle = "Alles auswählen";
                             },
                                                         {
                                 key = "\Uf700";
@@ -521,7 +521,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Delete;
+                    newTitle = Löschen;
                     originalTitle = Delete;
                 },
                                 {
@@ -535,7 +535,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find\U2026";
+                                newTitle = "Suchen \U2026";
                                 originalTitle = "Find\U2026";
                             },
                                                         {
@@ -544,7 +544,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find and Replace\U2026";
+                                newTitle = "Suchen und Ersetzen \U2026";
                                 originalTitle = "Find and Replace\U2026";
                             },
                                                         {
@@ -553,7 +553,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find Next";
+                                newTitle = "Weitersuchen (vorwärts)";
                                 originalTitle = "Find Next";
                             },
                                                         {
@@ -562,7 +562,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Find Previous";
+                                newTitle = "Weitersuchen (rückwärts)";
                                 originalTitle = "Find Previous";
                             },
                                                         {
@@ -571,7 +571,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Use Selection for Find";
+                                newTitle = "Auswahl suchen";
                                 originalTitle = "Use Selection for Find";
                             },
                                                         {
@@ -580,7 +580,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Jump to Selection";
+                                newTitle = "Auswahl anzeigen";
                                 originalTitle = "Jump to Selection";
                             }
                         );
@@ -588,7 +588,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Spelling and Grammar";
+                        newTitle = "Rechtschreibung und Grammatik";
                         originalTitle = "Spelling and Grammar";
                         subItems =                         (
                                                         {
@@ -597,7 +597,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Show Spelling and Grammar";
+                                newTitle = "Rechtschreibung und Grammatik einblenden";
                                 originalTitle = "Show Spelling and Grammar";
                             },
                                                         {
@@ -606,7 +606,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Document Now";
+                                newTitle = "Dokument jetzt prüfen";
                                 originalTitle = "Check Document Now";
                             },
                                                         {
@@ -615,7 +615,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Spelling While Typing";
+                                newTitle = "Während der Texteingabe prüfen";
                                 originalTitle = "Check Spelling While Typing";
                             },
                                                         {
@@ -624,7 +624,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Grammar With Spelling";
+                                newTitle = "Rechtschreib- und Grammatikprüfung";
                                 originalTitle = "Check Grammar With Spelling";
                             },
                                                         {
@@ -633,7 +633,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Correct Spelling Automatically";
+                                newTitle = "Rechtschreibung autom. korrigieren";
                                 originalTitle = "Correct Spelling Automatically";
                             }
                         );
@@ -641,7 +641,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Substitutions;
+                        newTitle = Ersetzungen;
                         originalTitle = Substitutions;
                         subItems =                         (
                                                         {
@@ -650,7 +650,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Show Substitutions";
+                                newTitle = "Ersetzungen einblenden";
                                 originalTitle = "Show Substitutions";
                             },
                                                         {
@@ -659,7 +659,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Copy/Paste";
+                                newTitle = "Intelligentes Kopieren/Einsetzen";
                                 originalTitle = "Smart Copy/Paste";
                             },
                                                         {
