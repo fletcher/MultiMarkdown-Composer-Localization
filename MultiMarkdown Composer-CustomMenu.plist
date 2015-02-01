@@ -133,7 +133,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Schließen;
+                    newTitle = "Schließen";
                     originalTitle = Close;
                 },
                                 {
@@ -521,7 +521,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Löschen;
+                    newTitle = "Löschen";
                     originalTitle = Delete;
                 },
                                 {
