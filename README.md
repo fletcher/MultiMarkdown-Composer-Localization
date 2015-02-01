@@ -1,4 +1,15 @@
 # MultiMarkdown-Composer-Localization
+
+## Introduction ##
+
+**NOTE**:  If you are submitting localizations, modify the following files first:
+
+* MultiMarkdown Composer-CustomMenu.plist
+* MultiMarkdown Composer-CustomStrings.plist
+
+
+## Notes
+
 New and improved localization for MultiMarkdown Composer version 3
 
 Unfortunately, MultiMarkdown Composer isn't currently a "big" enough project to support a team of developers or pay lots of people to help.  This includes paying for professional localization of the application for all the countries in the world.
