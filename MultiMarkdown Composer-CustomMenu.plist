@@ -1,5 +1,5 @@
 {
-    appName = "MultiMarkdown Composer";
+    appName = "MultiMarkdown Composer Pro (Beta)";
     appVersion = "3.0b15";
     subItems =     (
                 {
@@ -467,6 +467,15 @@
                                 modShift = 0;
                                 newTitle = "Convert to Regular Text";
                                 originalTitle = "Convert to Regular Text";
+                            },
+                                                        {
+                                key = "";
+                                modAlt = 0;
+                                modCmd = 0;
+                                modCtrl = 0;
+                                modShift = 0;
+                                newTitle = "Transcluded File";
+                                originalTitle = "Transcluded File";
                             }
                         );
                     };
@@ -1154,6 +1163,59 @@
                                 modShift = 0;
                                 newTitle = "White Rabbit";
                                 originalTitle = "White Rabbit";
+                            }
+                        );
+                    };
+                },
+                                {
+                    submenu =                     {
+                        newTitle = "Outline Folding";
+                        originalTitle = "Outline Folding";
+                        subItems =                         (
+                                                        {
+                                key = "\\";
+                                modAlt = 0;
+                                modCmd = 1;
+                                modCtrl = 0;
+                                modShift = 1;
+                                newTitle = "Focus/Unfocus current section";
+                                originalTitle = "Focus/Unfocus current section";
+                            },
+                                                        {
+                                key = "\\";
+                                modAlt = 1;
+                                modCmd = 1;
+                                modCtrl = 0;
+                                modShift = 1;
+                                newTitle = "Focus/Unfocus current paragraph";
+                                originalTitle = "Focus/Unfocus current paragraph";
+                            },
+                                                        {
+                                key = "\\";
+                                modAlt = 0;
+                                modCmd = 1;
+                                modCtrl = 0;
+                                modShift = 0;
+                                newTitle = "Fold/Unfold current section";
+                                originalTitle = "Fold/Unfold current section";
+                            },
+                                                        {
+                                key = "\\";
+                                modAlt = 0;
+                                modCmd = 1;
+                                modCtrl = 1;
+                                modShift = 0;
+                                newTitle = "Fold/Unfold children of current section";
+                                originalTitle = "Fold/Unfold children of current section";
+                            },
+                                                        {
+                                key = "\\";
+                                modAlt = 1;
+                                modCmd = 1;
+                                modCtrl = 1;
+                                modShift = 0;
+                                newTitle = "Fold/Unfold entire document";
+                                originalTitle = "Fold/Unfold entire document";
                             }
                         );
                     };
