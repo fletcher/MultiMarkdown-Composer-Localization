@@ -21,7 +21,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Check for Updates\U2026";
+                    newTitle = "Auf Updates überprüfen \U2026";
                     originalTitle = "Check for Updates\U2026";
                 },
                                 {
@@ -89,7 +89,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Neu;
+                    newTitle = "Neues leeres Dokument";
                     originalTitle = New;
                 },
                                 {
@@ -103,7 +103,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Benutzte Dokumente";
+                        newTitle = "Zuletzt verwendete öffnen";
                         originalTitle = "Open Recent";
                         subItems =                         (
                                                         {
@@ -124,7 +124,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Compare to Other File\U2026";
+                    newTitle = "Dokumente vergleichen \U2026";
                     originalTitle = "Compare to Other File\U2026";
                 },
                                 {
@@ -142,7 +142,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Close All";
+                    newTitle = "Alle schließen";
                     originalTitle = "Close All";
                 },
                                 {
@@ -151,7 +151,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Sichern \U2026";
+                    newTitle = "Speichern \U2026";
                     originalTitle = "Save\U2026";
                 },
                                 {
@@ -160,7 +160,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Export\U2026";
+                    newTitle = "Exportieren \U2026";
                     originalTitle = "Export\U2026";
                 },
                                 {
@@ -178,7 +178,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Papierformat \U2026";
+                    newTitle = "Seite einrichten \U2026";
                     originalTitle = "Page Setup\U2026";
                 },
                                 {
@@ -187,7 +187,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Print Text\U2026";
+                    newTitle = "Drucken \U2026";
                     originalTitle = "Print Text\U2026";
                 },
                                 {
@@ -196,7 +196,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Print Preview\U2026";
+                    newTitle = "Vorschau \U2026";
                     originalTitle = "Print Preview\U2026";
                 },
                                 {
@@ -205,7 +205,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Transclude to New File";
+                    newTitle = "In neuem Dokument einschließen";
                     originalTitle = "Transclude to New File";
                 }
             );
@@ -252,7 +252,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Copy As";
+                        newTitle = "Kopieren als";
                         originalTitle = "Copy As";
                         subItems =                         (
                                                         {
@@ -288,7 +288,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Plain Text";
+                                newTitle = "Unformatierter Text";
                                 originalTitle = "Plain Text";
                             }
                         );
@@ -300,12 +300,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Einsetzen;
+                    newTitle = Einfügen;
                     originalTitle = Paste;
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Paste As";
+                        newTitle = "Einfügen als";
                         originalTitle = "Paste As";
                         subItems =                         (
                                                         {
@@ -314,7 +314,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Bulleted List";
+                                newTitle = "Aufzählung";
                                 originalTitle = "Paste as Bulleted List";
                             },
                                                         {
@@ -323,7 +323,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Enumerated List";
+                                newTitle = "Numerierte Liste";
                                 originalTitle = "Paste as Enumerated List";
                             },
                                                         {
@@ -332,7 +332,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Blockquote";
+                                newTitle = "Blockzitat";
                                 originalTitle = "Paste as Blockquote";
                             },
                                                         {
@@ -341,7 +341,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Table";
+                                newTitle = "Tabelle";
                                 originalTitle = "Paste as Table";
                             },
                                                         {
@@ -350,7 +350,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Table Row(s)";
+                                newTitle = "Tabellen Zeile(n)";
                                 originalTitle = "Paste as Table Row(s)";
                             }
                         );
@@ -367,8 +367,8 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Select All";
-                                originalTitle = "Alles auswählen";
+                                newTitle = "Alles auswählen";
+                                originalTitle = "Select All";
                             },
                                                         {
                                 key = "\Uf700";
@@ -376,7 +376,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Increase Selection";
+                                newTitle = "Auswahl erweitern";
                                 originalTitle = "Increase Selection";
                             },
                                                         {
@@ -385,7 +385,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Decrease Selection";
+                                newTitle = "Auswahl verkleinern";
                                 originalTitle = "Decrease Selection";
                             },
                                                         {
@@ -394,7 +394,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Previous Section";
+                                newTitle = "Zum vorherigen Abschnitt bewegen";
                                 originalTitle = "Move to Previous Section";
                             },
                                                         {
@@ -403,7 +403,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Next Section";
+                                newTitle = "Zum nächsten Abschnitt bewegen";
                                 originalTitle = "Move to Next Section";
                             },
                                                         {
@@ -412,7 +412,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Parent Section";
+                                newTitle = "Zum übergeordneten Abschnitt bewegen";
                                 originalTitle = "Move to Parent Section";
                             },
                                                         {
@@ -421,7 +421,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Sibling Section";
+                                newTitle = "Zum nächsten Abschnitt auf gleicher Ebene bewegen";
                                 originalTitle = "Move to Sibling Section";
                             }
                         );
@@ -429,7 +429,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Convert Selection To";
+                        newTitle = "Abschnitt konvertieren nach";
                         originalTitle = "Convert Selection To";
                         subItems =                         (
                                                         {
@@ -438,7 +438,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Bulleted List";
+                                newTitle = "Aufzählung";
                                 originalTitle = "Convert to Bulleted List";
                             },
                                                         {
@@ -447,7 +447,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Enumerated List";
+                                newTitle = "Numerierte Liste";
                                 originalTitle = "Convert to Enumerated List";
                             },
                                                         {
@@ -456,7 +456,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Blockquote";
+                                newTitle = "Blockzitat";
                                 originalTitle = "Convert to Blockquote";
                             },
                                                         {
@@ -465,7 +465,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Regular Text";
+                                newTitle = "Unformatierten Text";
                                 originalTitle = "Convert to Regular Text";
                             },
                                                         {
@@ -474,7 +474,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Transcluded File";
+                                newTitle = "Eingeschlossenes Dokument";
                                 originalTitle = "Transcluded File";
                             }
                         );
@@ -491,7 +491,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Left";
+                                newTitle = "Nach links schieben";
                                 originalTitle = "Shift Left";
                             },
                                                         {
@@ -500,7 +500,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Right";
+                                newTitle = "Nach rechts schieben";
                                 originalTitle = "Shift Right";
                             },
                                                         {
@@ -509,7 +509,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Up";
+                                newTitle = "Aufwärts schieben";
                                 originalTitle = "Shift Up";
                             },
                                                         {
@@ -518,7 +518,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Down";
+                                newTitle = "Abwärts schieben";
                                 originalTitle = "Shift Down";
                             }
                         );
@@ -562,7 +562,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Weitersuchen (vorwärts)";
+                                newTitle = "Vorwärts weitersuchen";
                                 originalTitle = "Find Next";
                             },
                                                         {
@@ -571,7 +571,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Weitersuchen (rückwärts)";
+                                newTitle = "Rückwärts weitersuchen";
                                 originalTitle = "Find Previous";
                             },
                                                         {
@@ -580,7 +580,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Auswahl suchen";
+                                newTitle = "Mit Auswahl suchen";
                                 originalTitle = "Use Selection for Find";
                             },
                                                         {
@@ -589,7 +589,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Auswahl anzeigen";
+                                newTitle = "Zur Auswahl springen";
                                 originalTitle = "Jump to Selection";
                             }
                         );
@@ -606,7 +606,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Rechtschreibung und Grammatik einblenden";
+                                newTitle = "Rechtschreibung und Grammatik zeigen";
                                 originalTitle = "Show Spelling and Grammar";
                             },
                                                         {
@@ -615,7 +615,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Dokument jetzt prüfen";
+                                newTitle = "Dokument prüfen";
                                 originalTitle = "Check Document Now";
                             },
                                                         {
@@ -642,7 +642,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Rechtschreibung autom. korrigieren";
+                                newTitle = "Rechtschreibung automatisch korrigieren";
                                 originalTitle = "Correct Spelling Automatically";
                             }
                         );
@@ -668,7 +668,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Intelligentes Kopieren/Einsetzen";
+                                newTitle = "Intelligentes Kopieren/Einfügen";
                                 originalTitle = "Smart Copy/Paste";
                             },
                                                         {
@@ -677,7 +677,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Quotes";
+                                newTitle = "Intelligente Anführungszeichen";
                                 originalTitle = "Smart Quotes";
                             },
                                                         {
@@ -686,7 +686,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Dashes";
+                                newTitle = "Intelligente Gedankenstriche";
                                 originalTitle = "Smart Dashes";
                             },
                                                         {
@@ -695,7 +695,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Smart Links";
+                                newTitle = "Intelligente Links";
                                 originalTitle = "Smart Links";
                             },
                                                         {
@@ -704,7 +704,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Text Replacement";
+                                newTitle = "Text Ersetzung";
                                 originalTitle = "Text Replacement";
                             }
                         );
@@ -721,7 +721,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Make Upper Case";
+                                newTitle = "Großschreibung";
                                 originalTitle = "Make Upper Case";
                             },
                                                         {
@@ -730,7 +730,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Make Lower Case";
+                                newTitle = "Kleinschreibung";
                                 originalTitle = "Make Lower Case";
                             },
                                                         {
@@ -739,7 +739,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Capitalize;
+                                newTitle = "Anfangsbuchstaben groß";
                                 originalTitle = Capitalize;
                             }
                         );
@@ -747,7 +747,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Speech;
+                        newTitle = "Diktat";
                         originalTitle = Speech;
                         subItems =                         (
                                                         {
@@ -756,7 +756,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Start Speaking";
+                                newTitle = "Starten";
                                 originalTitle = "Start Speaking";
                             },
                                                         {
@@ -765,7 +765,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Stop Speaking";
+                                newTitle = "Beenden;
                                 originalTitle = "Stop Speaking";
                             }
                         );
@@ -777,7 +777,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Customize Menus";
+                    newTitle = "Menüs anpassen";
                     originalTitle = "Customize Menus";
                 },
                                 {
@@ -786,7 +786,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Start Dictation\U2026";
+                    newTitle = "Diktat starten \U2026";
                     originalTitle = "Start Dictation\U2026";
                 },
                                 {
@@ -795,7 +795,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Special Characters\U2026";
+                    newTitle = "Sonderzeichen \U2026";
                     originalTitle = "Special Characters\U2026";
                 }
             );
@@ -810,7 +810,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Bold;
+                    newTitle = Fett;
                     originalTitle = Bold;
                 },
                                 {
@@ -819,7 +819,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Italic;
+                    newTitle = Kursiv;
                     originalTitle = Italic;
                 },
                                 {
@@ -828,12 +828,12 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Toggle List Type";
+                    newTitle = "Listentyp umschalten";
                     originalTitle = "Toggle List Type";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Clean Up\U2026";
+                        newTitle = "Aufräumen \U2026";
                         originalTitle = "Clean Up\U2026";
                         subItems =                         (
                                                         {
@@ -851,7 +851,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Selected List(s)";
+                                newTitle = "Ausgewählte Liste(n)";
                                 originalTitle = "Selected List(s)";
                             },
                                                         {
@@ -860,7 +860,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Selected Table(s)";
+                                newTitle = "Ausgewählte Tabellen(n)";
                                 originalTitle = "Selected Table(s)";
                             },
                                                         {
@@ -869,7 +869,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "\"Smart\" Typography";
+                                newTitle = "\"Intelligente\" Typographie";
                                 originalTitle = "\"Smart\" Typography";
                             },
                                                         {
@@ -887,7 +887,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Unwrap Paragraph(s)";
+                                newTitle = "Absätze auswickeln";
                                 originalTitle = "Unwrap Paragraph(s)";
                             },
                                                         {
@@ -896,7 +896,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "\"Full\" Clean Up (All the above)";
+                                newTitle = "\"Vollständiges\" Aufräumen (alles oben)";
                                 originalTitle = "\"Full\" Clean Up (All the above)";
                             }
                         );
@@ -926,7 +926,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Highlight for CriticMarkup";
+                    newTitle = "Hervorhebung von CriticMarkup";
                     originalTitle = "Highlight for CriticMarkup";
                 },
                                 {
@@ -935,7 +935,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Insert CriticMarkup Note";
+                    newTitle = "CriticMarkup Anmerkung einfügen";
                     originalTitle = "Insert CriticMarkup Note";
                 },
                                 {
@@ -944,7 +944,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Insert Table of Contents";
+                    newTitle = "Inhaltsverzeichnis einfügen";
                     originalTitle = "Insert Table of Contents";
                 }
             );
@@ -959,7 +959,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Typewriter Mode";
+                    newTitle = "Schreibmaschinenmodus";
                     originalTitle = "Typewriter Mode";
                 },
                                 {
@@ -968,7 +968,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Auto Zoom";
+                    newTitle = "Automatisches Zoomen";
                     originalTitle = "Auto Zoom";
                 },
                                 {
@@ -977,7 +977,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Line Numbers";
+                    newTitle = "Zeilennummerierung";
                     originalTitle = "Show Line Numbers";
                 },
                                 {
@@ -986,7 +986,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Paragraph Numbers";
+                    newTitle = "Absatznummerierung";
                     originalTitle = "Show Paragraph Numbers";
                 },
                                 {
@@ -995,12 +995,12 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Track Changes";
+                    newTitle = "Änderungen nachverfolgen";
                     originalTitle = "Track Changes";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "CriticMarkup Preview";
+                        newTitle = "CriticMarkup Vorschau";
                         originalTitle = "CriticMarkup Preview";
                         subItems =                         (
                                                         {
@@ -1009,7 +1009,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Highlight differences";
+                                newTitle = "Hervorhebung von Änderungen";
                                 originalTitle = "Highlight differences";
                             },
                                                         {
@@ -1018,7 +1018,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Original version";
+                                newTitle = "Originalversion";
                                 originalTitle = "Original version";
                             },
                                                         {
@@ -1027,7 +1027,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Changed version";
+                                newTitle = "Geänderte Version";
                                 originalTitle = "Changed version";
                             },
                                                         {
@@ -1036,7 +1036,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Disabled;
+                                newTitle = deaktiviert;
                                 originalTitle = Disabled;
                             }
                         );
@@ -1053,7 +1053,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Amber;
+                                newTitle = Bernstein;
                                 originalTitle = Amber;
                             },
                                                         {
@@ -1062,7 +1062,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Clear;
+                                newTitle = Klar;
                                 originalTitle = Clear;
                             },
                                                         {
@@ -1071,7 +1071,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Default;
+                                newTitle = Standard;
                                 originalTitle = Default;
                             },
                                                         {
@@ -1080,7 +1080,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Empty;
+                                newTitle = Leer;
                                 originalTitle = Empty;
                             },
                                                         {
@@ -1089,7 +1089,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Manuscript;
+                                newTitle = Manuskript;
                                 originalTitle = Manuscript;
                             },
                                                         {
@@ -1098,7 +1098,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = New;
+                                newTitle = Neu;
                                 originalTitle = New;
                             },
                                                         {
@@ -1116,7 +1116,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Plain;
+                                newTitle = Schlicht;
                                 originalTitle = Plain;
                             },
                                                         {
@@ -1125,7 +1125,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Pretentious;
+                                newTitle = Anspruchsvoll;
                                 originalTitle = Pretentious;
                             },
                                                         {
@@ -1134,7 +1134,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Simple;
+                                newTitle = Einfach;
                                 originalTitle = Simple;
                             },
                                                         {
@@ -1143,7 +1143,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Solarized;
+                                newTitle = Polarisiert;
                                 originalTitle = Solarized;
                             },
                                                         {
@@ -1152,7 +1152,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Solarized (Dark)";
+                                newTitle = "Polarisiert (Dunkel)";
                                 originalTitle = "Solarized (Dark)";
                             },
                                                         {
@@ -1169,7 +1169,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Outline Folding";
+                        newTitle = "Gleiderung falten";
                         originalTitle = "Outline Folding";
                         subItems =                         (
                                                         {
@@ -1178,7 +1178,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Focus/Unfocus current section";
+                                newTitle = "Fokussierung/Defokussierung Abschnitt";
                                 originalTitle = "Focus/Unfocus current section";
                             },
                                                         {
@@ -1187,7 +1187,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Focus/Unfocus current paragraph";
+                                newTitle = "Fokussierung/Defokussierung Absatz";
                                 originalTitle = "Focus/Unfocus current paragraph";
                             },
                                                         {
@@ -1196,7 +1196,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold current section";
+                                newTitle = "Falten/Entfalten Abschnitt";
                                 originalTitle = "Fold/Unfold current section";
                             },
                                                         {
@@ -1205,7 +1205,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold children of current section";
+                                newTitle = "Falten/Entfalten Unterabschnitte";
                                 originalTitle = "Fold/Unfold children of current section";
                             },
                                                         {
@@ -1214,7 +1214,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold entire document";
+                                newTitle = "Falten/entfalten gesamtes Dokument";
                                 originalTitle = "Fold/Unfold entire document";
                             }
                         );
@@ -1226,7 +1226,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Invisible Characters";
+                    newTitle = "Unsichtbare Zeichen anzeigen";
                     originalTitle = "Show Invisible Characters";
                 },
                                 {
@@ -1235,7 +1235,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Refresh Preview";
+                    newTitle = "Vorschau aktualisieren";
                     originalTitle = "Refresh Preview";
                 },
                                 {
@@ -1244,12 +1244,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Preview with Marked";
+                    newTitle = "Vorschau mit Marked";
                     originalTitle = "Preview with Marked";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Window Layout";
+                        newTitle = "Fensterlayout";
                         originalTitle = "Window Layout";
                         subItems =                         (
                                                         {
@@ -1258,7 +1258,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Swap Side for Preview";
+                                newTitle = "Seite tauschen für Vorschau";
                                 originalTitle = "Swap Side for Preview";
                             },
                                                         {
@@ -1267,7 +1267,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Swap Side for Visible Sidebars";
+                                newTitle = "Seite tauschen für Seitenleisten";
                                 originalTitle = "Swap Side for Visible Sidebars";
                             }
                         );
@@ -1284,7 +1284,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Zoom Editor In";
+                                newTitle = "Zoom Editor Ein";
                                 originalTitle = "Zoom Editor In";
                             },
                                                         {
@@ -1293,7 +1293,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Zoom Editor Out";
+                                newTitle = "Zoom Editor Aus";
                                 originalTitle = "Zoom Editor Out";
                             },
                                                         {
@@ -1302,7 +1302,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Zoom Preview In";
+                                newTitle = "Zoom Vorschau Ein";
                                 originalTitle = "Zoom Preview In";
                             },
                                                         {
@@ -1311,7 +1311,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Zoom Preview Out";
+                                newTitle = "Zoom Vorschau Aus";
                                 originalTitle = "Zoom Preview Out";
                             }
                         );
@@ -1320,7 +1320,7 @@
             );
         },
                 {
-            newTitle = Window;
+            newTitle = Fenster;
             originalTitle = Window;
             subItems =             (
                                 {
@@ -1329,7 +1329,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Minimize;
+                    newTitle = Minimieren;
                     originalTitle = Minimize;
                 },
                                 {
@@ -1347,7 +1347,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Enter Full Screen";
+                    newTitle = "Vollbildmodus";
                     originalTitle = "Enter Full Screen";
                 },
                                 {
@@ -1356,7 +1356,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Bring All to Front";
+                    newTitle = "Alles in den Vordergrund";
                     originalTitle = "Bring All to Front";
                 },
                                 {
@@ -1365,7 +1365,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle Info";
+                    newTitle = "Information ein/aus";
                     originalTitle = "Toggle Info";
                 },
                                 {
@@ -1374,7 +1374,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle TOC";
+                    newTitle = "Inhalt ein/aus";
                     originalTitle = "Toggle TOC";
                 },
                                 {
@@ -1383,7 +1383,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Toggle Preview";
+                    newTitle = "Vorschau ein/aus";
                     originalTitle = "Toggle Preview";
                 },
                                 {
@@ -1392,7 +1392,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle References";
+                    newTitle = "Referenzen ein/aus";
                     originalTitle = "Toggle References";
                 },
                                 {
@@ -1401,7 +1401,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle CriticMarkup";
+                    newTitle = "CriticMarkup ein/aus";
                     originalTitle = "Toggle CriticMarkup";
                 },
                                 {
@@ -1410,7 +1410,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Save HUD Panel Positions";
+                    newTitle = "HUD Positionen speichern";
                     originalTitle = "Save HUD Panel Positions";
                 },
                                 {
@@ -1419,7 +1419,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Restore HUD Panel Positions";
+                    newTitle = "HUD Positionen wiederherstellen";
                     originalTitle = "Restore HUD Panel Positions";
                 },
                                 {
@@ -1428,7 +1428,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Left Sidebar";
+                    newTitle = "Zur linken Seitenleiste";
                     originalTitle = "Go to Left Sidebar";
                 },
                                 {
@@ -1437,7 +1437,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Editor";
+                    newTitle = "Zum Editor";
                     originalTitle = "Go to Editor";
                 },
                                 {
@@ -1446,7 +1446,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Right Sidebar";
+                    newTitle = "Zur rechten Seitenleiste";
                     originalTitle = "Go to Right Sidebar";
                 },
                                 {
@@ -1455,13 +1455,13 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Untitled;
+                    newTitle = unbenannt;
                     originalTitle = Untitled;
                 }
             );
         },
                 {
-            newTitle = Help;
+            newTitle = Hilfe;
             originalTitle = Help;
             subItems =             (
                                 {
@@ -1470,7 +1470,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "MultiMarkdown Composer Help";
+                    newTitle = "MultiMarkdown Composer Hilfe";
                     originalTitle = "MultiMarkdown Composer Help";
                 },
                                 {
@@ -1479,7 +1479,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "MultiMarkdown Syntax Guide";
+                    newTitle = "MultiMarkdown Syntax Wegweiser";
                     originalTitle = "MultiMarkdown Syntax Guide";
                 },
                                 {
@@ -1488,7 +1488,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Online Help";
+                    newTitle = "Online Hilfe";
                     originalTitle = "Online Help";
                 }
             );
