@@ -22,7 +22,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Auf Aktualisierungen prüfen \U2026";
-                    originalTitle = "Check for Updates \U2026";
+                    originalTitle = "Check for Updates\U2026";
                 },
                                 {
                     key = ",";
@@ -31,7 +31,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Einstellungen \U2026";
-                    originalTitle = "Preferences \U2026";
+                    originalTitle = "Preferences\U2026";
                 },
                                 {
                     submenu =                     {
@@ -108,7 +108,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Öffnen \U2026";
-                    originalTitle = "Open \U2026";
+                    originalTitle = "Open\U2026";
                 },
                                 {
                     submenu =                     {
@@ -134,7 +134,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Mit anderem Dokument vergleichen \U2026";
-                    originalTitle = "Compare to Other File \U2026";
+                    originalTitle = "Compare to Other File\U2026";
                 },
                                 {
                     key = w;
@@ -161,7 +161,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Speichern \U2026";
-                    originalTitle = "Save \U2026";
+                    originalTitle = "Save\U2026";
                 },
                                 {
                     key = E;
@@ -170,7 +170,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Exportieren \U2026";
-                    originalTitle = "Export \U2026";
+                    originalTitle = "Export\U2026";
                 },
                                 {
                     key = "";
@@ -188,7 +188,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Seite einrichten \U2026";
-                    originalTitle = "Page Setup \U2026";
+                    originalTitle = "Page Setup\U2026";
                 },
                                 {
                     key = p;
@@ -197,7 +197,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Drucken \U2026";
-                    originalTitle = "Print Text \U2026";
+                    originalTitle = "Print Text\U2026";
                 },
                                 {
                     key = P;
@@ -206,7 +206,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Vorschau drucken \U2026";
-                    originalTitle = "Print Preview \U2026";
+                    originalTitle = "Print Preview\U2026";
                 },
                                 {
                     key = "";
@@ -555,7 +555,7 @@
                                 modCtrl = 0;
                                 modShift = 0;
                                 newTitle = "Suchen \U2026";
-                                originalTitle = "Find \U2026";
+                                originalTitle = "Find\U2026";
                             },
                                                         {
                                 key = f;
@@ -564,7 +564,7 @@
                                 modCtrl = 0;
                                 modShift = 0;
                                 newTitle = "Suchen und Ersetzen \U2026";
-                                originalTitle = "Find and Replace \U2026";
+                                originalTitle = "Find and Replace\U2026";
                             },
                                                         {
                                 key = g;
@@ -806,7 +806,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Diktat starten \U2026";
-                    originalTitle = "Start Dictation \U2026";
+                    originalTitle = "Start Dictation\U2026";
                 },
                                 {
                     key = t;
@@ -815,7 +815,7 @@
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = "Sonderzeichen \U2026";
-                    originalTitle = "Special Characters \U2026";
+                    originalTitle = "Special Characters\U2026";
                 }
             );
         },
@@ -853,7 +853,7 @@
                                 {
                     submenu =                     {
                         newTitle = "Aufräumen \U2026";
-                        originalTitle = "Clean Up \U2026";
+                        originalTitle = "Clean Up\U2026";
                         subItems =                         (
                                                         {
                                 key = "";
