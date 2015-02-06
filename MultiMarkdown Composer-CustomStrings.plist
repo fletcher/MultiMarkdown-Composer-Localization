@@ -5,13 +5,13 @@
 "Alert" = "Achtung";
 
 /* Character count label */
-"C" = "Z";
+"C" = "A";
 
 /* Cancel button */
 "Cancel" = "Abbrechen";
 
 /* Character count label */
-"Characters" = "Zeichen";
+"Characters" = "Anschläge";
 
 /* Choose a file in your Dropbox folder... */
 "Choose a file in your Dropbox folder..." = "Wählen Sie eine Datei in Ihrem Dropbox-Verzeichnis ...";
