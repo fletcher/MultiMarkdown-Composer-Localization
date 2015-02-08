@@ -1,6 +1,6 @@
 {
     appName = "MultiMarkdown Composer Pro (Beta)";
-    appVersion = "3.0b15";
+    appVersion = "3.0b22";
     subItems =     (
                 {
             newTitle = "MultiMarkdown Composer";
@@ -477,6 +477,15 @@
                                 modShift = 0;
                                 newTitle = "In Unformatierten Text konvertieren";
                                 originalTitle = "Convert to Regular Text";
+                            },
+                                                        {
+                                key = "";
+                                modAlt = 0;
+                                modCmd = 0;
+                                modCtrl = 0;
+                                modShift = 0;
+                                newTitle = "Convert to Fenced Code Block";
+                                originalTitle = "Convert to Fenced Code Block";
                             },
                                                         {
                                 key = "";
