@@ -465,7 +465,6 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Blockzitat";
                                 newTitle = "In Blockzitat konvertieren";
                                 originalTitle = "Convert to Blockquote";
                             },
@@ -475,7 +474,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "In Unformatierten Text konvertieren";
+                                newTitle = "In unformatierten Text konvertieren";
                                 originalTitle = "Convert to Regular Text";
                             },
                                                         {
@@ -484,7 +483,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Fenced Code Block";
+                                newTitle = "In Code-Block konvertieren";
                                 originalTitle = "Convert to Fenced Code Block";
                             },
                                                         {
@@ -978,7 +977,7 @@
             );
         },
                 {
-            newTitle = View;
+            newTitle = Ansicht;
             originalTitle = View;
             subItems =             (
                                 {
