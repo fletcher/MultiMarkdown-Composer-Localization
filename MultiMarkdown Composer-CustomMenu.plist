@@ -887,7 +887,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Ausgewählte Tabellen(n)";
+                                newTitle = "Ausgewählte Tabelle(n)";
                                 originalTitle = "Selected Table(s)";
                             },
                                                         {
@@ -1437,7 +1437,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "HUD Positionen speichern";
+                    newTitle = "HUD-Positionen speichern";
                     originalTitle = "Save HUD Panel Positions";
                 },
                                 {
@@ -1446,7 +1446,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "HUD Positionen wiederherstellen";
+                    newTitle = "HUD-Positionen wiederherstellen";
                     originalTitle = "Restore HUD Panel Positions";
                 },
                                 {

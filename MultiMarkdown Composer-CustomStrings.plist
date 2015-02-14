@@ -53,13 +53,13 @@
 "The file you have chosen does not appear to be in your Dropbox folder. Please select again." = "Die ausgewählte Datei scheint nicht in einem Dropbox-Verzeichnis zu liegen. Bitte wählen Sie erneut.";
 
 /* ePub export error */
-"This file could not be exported to a valid ePub. It is likely that the HTML was not valid (are CriticMarkup changes present?)." = "Diese Datei konnte nicht als ePub exportiert werden. Vermutlich ist das HTML nicht valide. Ist beispielsweise CriticMarkup vorhanden?";
+"This file could not be exported to a valid ePub. It is likely that the HTML was not valid (are CriticMarkup changes present?)." = "Diese Datei konnte nicht als ePub exportiert werden. Vermutlich ist das HTML nicht valide. Gibt es vielleicht noch CriticMarkup-Einträge?";
 
 /* Overwrite style changes error */
-"This will remove any customizations you have made to the built-in themes.  Other themes will not be affected.  Always backup any files that are important to you." = "Dieser Vorgang wird alle Anpassungen an den eingebauten 'Themes' verwerfen. Andere 'Themes' werden nicht betroffen sein.";
+"This will remove any customizations you have made to the built-in themes.  Other themes will not be affected.  Always backup any files that are important to you." = "Dieser Vorgang wird alle Anpassungen an den eingebauten 'Themes' verwerfen. Andere 'Themes' werden nicht betroffen sein. Sichern Sie Dateien, die für Sie wichtig sind.";
 
 /* TextBundle export error */
-"To export as a Markdown/MultiMarkdown TextBundle package, you need the Pro version of MultiMarkdown Composer." = "To export as a Markdown/MultiMarkdown TextBundle package, you need the Pro version of MultiMarkdown Composer.";
+"To export as a Markdown/MultiMarkdown TextBundle package, you need the Pro version of MultiMarkdown Composer." = "Für einen Export als TextBundle-Paket brauchen Sie die Pro-Version von MultiMarkdown Composer.";
 
 /* TOC HUD name */
 "TOC " = "Inhaltsverzeichnis ";
@@ -71,7 +71,7 @@
 "W" = "W";
 
 /* Select your Dropbox folder... */
-"Where is your Dropbox folder..." = "Wo ist ihr Dropbox-Verzeichnis...";
+"Where is your Dropbox folder..." = "Wo ist ihr Dropbox-Verzeichnis ...";
 
 /* Word count label */
 "Words" = "Wörter";
@@ -80,4 +80,4 @@
 "You cannot modify CriticMarkup while change tracking is enabled." = "Sie können CriticMarkup nicht ändern solange die Änderungsverfolgung eingeschaltet ist.";
 
 /* Disable track changes error */
-"You must disable Track Changes before using the TOC to rearrange text." = "Sie müssen die Ändernungsverfolgung ausschalten, um mittels Inhaltsverzeichnis das Dokument umzustrukturieren.";
+"You must disable Track Changes before using the TOC to rearrange text." = "Sie müssen die Änderungsverfolgung ausschalten, um mittels Inhaltsverzeichnis das Dokument umzustrukturieren.";
