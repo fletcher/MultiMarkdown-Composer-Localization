@@ -12,7 +12,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "About MultiMarkdown Composer";
+                    newTitle = "Про MultiMarkdown Composer";
                     originalTitle = "About MultiMarkdown Composer";
                 },
                                 {
@@ -21,7 +21,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Check for Updates\U2026";
+                    newTitle = "Перевірити оновлення\U2026";
                     originalTitle = "Check for Updates\U2026";
                 },
                                 {
@@ -30,12 +30,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Preferences\U2026";
+                    newTitle = "Параметри\U2026";
                     originalTitle = "Preferences\U2026";
                 },
                                 {
                     submenu =                     {
-                        newTitle = Services;
+                        newTitle = Сервіси;
                         originalTitle = Services;
                         subItems =                         (
                         );
@@ -47,7 +47,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Hide MultiMarkdown Composer";
+                    newTitle = "Сховати MultiMarkdown Composer";
                     originalTitle = "Hide MultiMarkdown Composer";
                 },
                                 {
@@ -56,7 +56,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Hide Others";
+                    newTitle = "Сховати решту";
                     originalTitle = "Hide Others";
                 },
                                 {
@@ -65,7 +65,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show All";
+                    newTitle = "Показати всі";
                     originalTitle = "Show All";
                 },
                                 {
@@ -74,13 +74,13 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Quit MultiMarkdown Composer";
+                    newTitle = "Завершити MultiMarkdown Composer";
                     originalTitle = "Quit MultiMarkdown Composer";
                 }
             );
         },
                 {
-            newTitle = File;
+            newTitle = Файл;
             originalTitle = File;
             subItems =             (
                                 {
@@ -89,7 +89,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = New;
+                    newTitle = Новий документ;
                     originalTitle = New;
                 },
                                 {
@@ -98,12 +98,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Open\U2026";
+                    newTitle = "Відкрити\U2026";
                     originalTitle = "Open\U2026";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Open Recent";
+                        newTitle = "Відкрити недавні";
                         originalTitle = "Open Recent";
                         subItems =                         (
                                                         {
@@ -112,7 +112,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Clear Menu";
+                                newTitle = "Очистити меню";
                                 originalTitle = "Clear Menu";
                             }
                         );
@@ -124,7 +124,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Compare to Other File\U2026";
+                    newTitle = "Порівняти з іншим файлом\U2026";
                     originalTitle = "Compare to Other File\U2026";
                 },
                                 {
@@ -133,7 +133,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Close;
+                    newTitle = Закрити;
                     originalTitle = Close;
                 },
                                 {
@@ -142,7 +142,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Close All";
+                    newTitle = "Закрити все";
                     originalTitle = "Close All";
                 },
                                 {
@@ -151,7 +151,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Save\U2026";
+                    newTitle = "Зберегти\U2026";
                     originalTitle = "Save\U2026";
                 },
                                 {
@@ -160,7 +160,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Export\U2026";
+                    newTitle = "Експортувати\U2026";
                     originalTitle = "Export\U2026";
                 },
                                 {
@@ -169,7 +169,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Revert to Saved";
+                    newTitle = "Повернутись до збереженного";
                     originalTitle = "Revert to Saved";
                 },
                                 {
@@ -178,7 +178,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Page Setup\U2026";
+                    newTitle = "Налаштування сторінки\U2026";
                     originalTitle = "Page Setup\U2026";
                 },
                                 {
@@ -187,7 +187,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Print Text\U2026";
+                    newTitle = "Надрукувати текст\U2026";
                     originalTitle = "Print Text\U2026";
                 },
                                 {
@@ -196,7 +196,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Print Preview\U2026";
+                    newTitle = "Перегляд перед друком\U2026";
                     originalTitle = "Print Preview\U2026";
                 },
                                 {
@@ -205,13 +205,13 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Transclude to New File";
+                    newTitle = "Включити до нового файлу";
                     originalTitle = "Transclude to New File";
                 }
             );
         },
                 {
-            newTitle = Edit;
+            newTitle = Редагування;
             originalTitle = Edit;
             subItems =             (
                                 {
@@ -220,7 +220,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Undo;
+                    newTitle = Відмінити;
                     originalTitle = Undo;
                 },
                                 {
@@ -229,7 +229,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 1;
-                    newTitle = Redo;
+                    newTitle = Повторити;
                     originalTitle = Redo;
                 },
                                 {
@@ -238,7 +238,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Cut;
+                    newTitle = Вирізати;
                     originalTitle = Cut;
                 },
                                 {
@@ -247,12 +247,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Copy;
+                    newTitle = Скопіювати;
                     originalTitle = Copy;
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Copy As";
+                        newTitle = "Скопіювати як\U2026";
                         originalTitle = "Copy As";
                         subItems =                         (
                                                         {
@@ -288,7 +288,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Plain Text";
+                                newTitle = "Простий текст";
                                 originalTitle = "Plain Text";
                             }
                         );
@@ -300,12 +300,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Paste;
+                    newTitle = Вставити;
                     originalTitle = Paste;
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Paste As";
+                        newTitle = "Вставити як\U2026";
                         originalTitle = "Paste As";
                         subItems =                         (
                                                         {
@@ -314,7 +314,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Bulleted List";
+                                newTitle = "Вставити як маркований список";
                                 originalTitle = "Paste as Bulleted List";
                             },
                                                         {
@@ -323,7 +323,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Enumerated List";
+                                newTitle = "Вставити як нумерований список";
                                 originalTitle = "Paste as Enumerated List";
                             },
                                                         {
@@ -332,7 +332,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Blockquote";
+                                newTitle = "Вставити як цитату";
                                 originalTitle = "Paste as Blockquote";
                             },
                                                         {
@@ -341,7 +341,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Table";
+                                newTitle = "Вставити як таблицю";
                                 originalTitle = "Paste as Table";
                             },
                                                         {
@@ -350,7 +350,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Paste as Table Row(s)";
+                                newTitle = "Вставити як рядки таблиці";
                                 originalTitle = "Paste as Table Row(s)";
                             }
                         );
@@ -358,7 +358,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Selection;
+                        newTitle = Виділення;
                         originalTitle = Selection;
                         subItems =                         (
                                                         {
@@ -367,7 +367,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Select All";
+                                newTitle = "Виділити все";
                                 originalTitle = "Select All";
                             },
                                                         {
@@ -376,7 +376,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Increase Selection";
+                                newTitle = "Збільшити виділення";
                                 originalTitle = "Increase Selection";
                             },
                                                         {
@@ -385,7 +385,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Decrease Selection";
+                                newTitle = "Зменшити виділення";
                                 originalTitle = "Decrease Selection";
                             },
                                                         {
@@ -394,7 +394,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Previous Section";
+                                newTitle = "До попереднього розділу";
                                 originalTitle = "Move to Previous Section";
                             },
                                                         {
@@ -403,7 +403,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Next Section";
+                                newTitle = "До наступного розділу";
                                 originalTitle = "Move to Next Section";
                             },
                                                         {
@@ -412,7 +412,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Parent Section";
+                                newTitle = "До батьківського розділу";
                                 originalTitle = "Move to Parent Section";
                             },
                                                         {
@@ -421,7 +421,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Move to Sibling Section";
+                                newTitle = "До братнього розділу";
                                 originalTitle = "Move to Sibling Section";
                             }
                         );
@@ -429,7 +429,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Convert Selection To";
+                        newTitle = "Перетворити виділення\U2026";
                         originalTitle = "Convert Selection To";
                         subItems =                         (
                                                         {
@@ -438,7 +438,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Bulleted List";
+                                newTitle = "На маркований список";
                                 originalTitle = "Convert to Bulleted List";
                             },
                                                         {
@@ -447,7 +447,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Enumerated List";
+                                newTitle = "На нумерований список";
                                 originalTitle = "Convert to Enumerated List";
                             },
                                                         {
@@ -456,7 +456,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Blockquote";
+                                newTitle = "На цитату";
                                 originalTitle = "Convert to Blockquote";
                             },
                                                         {
@@ -465,7 +465,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Regular Text";
+                                newTitle = "На звичайний текст";
                                 originalTitle = "Convert to Regular Text";
                             },
                                                         {
@@ -474,7 +474,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Convert to Fenced Code Block";
+                                newTitle = "На блок з кодом ";
                                 originalTitle = "Convert to Fenced Code Block";
                             },
                                                         {
@@ -483,7 +483,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Transcluded File";
+                                newTitle = "Включення з файлу";
                                 originalTitle = "Transcluded File";
                             }
                         );
@@ -491,7 +491,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Move;
+                        newTitle = Рух;
                         originalTitle = Move;
                         subItems =                         (
                                                         {
@@ -500,7 +500,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Left";
+                                newTitle = "Вліво";
                                 originalTitle = "Shift Left";
                             },
                                                         {
@@ -509,7 +509,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Right";
+                                newTitle = "Вправо";
                                 originalTitle = "Shift Right";
                             },
                                                         {
@@ -518,7 +518,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Up";
+                                newTitle = "Вгору";
                                 originalTitle = "Shift Up";
                             },
                                                         {
@@ -527,7 +527,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Shift Down";
+                                newTitle = "Вниз";
                                 originalTitle = "Shift Down";
                             }
                         );
@@ -539,12 +539,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Delete;
+                    newTitle = Видалити;
                     originalTitle = Delete;
                 },
                                 {
                     submenu =                     {
-                        newTitle = Find;
+                        newTitle = Пошук;
                         originalTitle = Find;
                         subItems =                         (
                                                         {
@@ -553,7 +553,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find\U2026";
+                                newTitle = "Пошук\U2026";
                                 originalTitle = "Find\U2026";
                             },
                                                         {
@@ -562,7 +562,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find and Replace\U2026";
+                                newTitle = "Знайти й замінити\U2026";
                                 originalTitle = "Find and Replace\U2026";
                             },
                                                         {
@@ -571,7 +571,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Find Next";
+                                newTitle = "Знайти наступне";
                                 originalTitle = "Find Next";
                             },
                                                         {
@@ -580,7 +580,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Find Previous";
+                                newTitle = "Знайти попереднє";
                                 originalTitle = "Find Previous";
                             },
                                                         {
@@ -589,7 +589,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Use Selection for Find";
+                                newTitle = "Шукати виділене";
                                 originalTitle = "Use Selection for Find";
                             },
                                                         {
@@ -598,7 +598,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Jump to Selection";
+                                newTitle = "До виділеного";
                                 originalTitle = "Jump to Selection";
                             }
                         );
@@ -606,7 +606,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Spelling and Grammar";
+                        newTitle = "Правопис і граматика";
                         originalTitle = "Spelling and Grammar";
                         subItems =                         (
                                                         {
@@ -615,7 +615,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Show Spelling and Grammar";
+                                newTitle = "Показати правопис і граматику";
                                 originalTitle = "Show Spelling and Grammar";
                             },
                                                         {
@@ -624,7 +624,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Document Now";
+                                newTitle = "Перевірити документ зараз";
                                 originalTitle = "Check Document Now";
                             },
                                                         {
@@ -633,7 +633,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Spelling While Typing";
+                                newTitle = "Перевіряти правопис під час введення";
                                 originalTitle = "Check Spelling While Typing";
                             },
                                                         {
@@ -642,7 +642,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Check Grammar With Spelling";
+                                newTitle = "Перевіряти граматику із правописом";
                                 originalTitle = "Check Grammar With Spelling";
                             },
                                                         {
@@ -651,7 +651,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Correct Spelling Automatically";
+                                newTitle = "Автоматично виправляти правопис";
                                 originalTitle = "Correct Spelling Automatically";
                             }
                         );
@@ -659,7 +659,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Substitutions;
+                        newTitle = Підстановки;
                         originalTitle = Substitutions;
                         subItems =                         (
                                                         {
@@ -668,7 +668,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Show Substitutions";
+                                newTitle = "Показати підстановки";
                                 originalTitle = "Show Substitutions";
                             },
                                                         {
@@ -677,7 +677,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Copy/Paste";
+                                newTitle = "Розумне копіювання/вставка";
                                 originalTitle = "Smart Copy/Paste";
                             },
                                                         {
@@ -686,7 +686,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Quotes";
+                                newTitle = "Розумні лапки";
                                 originalTitle = "Smart Quotes";
                             },
                                                         {
@@ -695,7 +695,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Smart Dashes";
+                                newTitle = "Розумні тире";
                                 originalTitle = "Smart Dashes";
                             },
                                                         {
@@ -704,7 +704,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Smart Links";
+                                newTitle = "Розумні посилання";
                                 originalTitle = "Smart Links";
                             },
                                                         {
@@ -713,7 +713,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Text Replacement";
+                                newTitle = "Замінення тексту";
                                 originalTitle = "Text Replacement";
                             }
                         );
@@ -721,7 +721,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Transformations;
+                        newTitle = Перетворення;
                         originalTitle = Transformations;
                         subItems =                         (
                                                         {
@@ -730,8 +730,8 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Make Upper Case";
-                                originalTitle = "Make Upper Case";
+                                newTitle = "У верхній регістр";
+                                originalTitle = "У нижній регістр";
                             },
                                                         {
                                 key = "";
@@ -739,7 +739,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Make Lower Case";
+                                newTitle = "На малі літери";
                                 originalTitle = "Make Lower Case";
                             },
                                                         {
@@ -748,7 +748,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Capitalize;
+                                newTitle = На заглавні;
                                 originalTitle = Capitalize;
                             }
                         );
@@ -756,7 +756,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Speech;
+                        newTitle = Читання вголос;
                         originalTitle = Speech;
                         subItems =                         (
                                                         {
@@ -765,7 +765,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Start Speaking";
+                                newTitle = "Розпочати читання";
                                 originalTitle = "Start Speaking";
                             },
                                                         {
@@ -774,7 +774,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Stop Speaking";
+                                newTitle = "Зупинити читання";
                                 originalTitle = "Stop Speaking";
                             }
                         );
@@ -786,7 +786,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Customize Menus";
+                    newTitle = "Налаштувати меню";
                     originalTitle = "Customize Menus";
                 },
                                 {
@@ -795,7 +795,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Start Dictation\U2026";
+                    newTitle = "Почати диктування\U2026";
                     originalTitle = "Start Dictation\U2026";
                 },
                                 {
@@ -804,13 +804,13 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Special Characters\U2026";
+                    newTitle = "Емограми й символи\U2026";
                     originalTitle = "Special Characters\U2026";
                 }
             );
         },
                 {
-            newTitle = Format;
+            newTitle = Формат;
             originalTitle = Format;
             subItems =             (
                                 {
@@ -819,7 +819,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Bold;
+                    newTitle = Жирний;
                     originalTitle = Bold;
                 },
                                 {
@@ -828,7 +828,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Italic;
+                    newTitle = Курсив;
                     originalTitle = Italic;
                 },
                                 {
@@ -837,12 +837,12 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Toggle List Type";
+                    newTitle = "Перемкнути тип списку";
                     originalTitle = "Toggle List Type";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Clean Up\U2026";
+                        newTitle = "Очистити\U2026";
                         originalTitle = "Clean Up\U2026";
                         subItems =                         (
                                                         {
@@ -851,7 +851,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Metadata;
+                                newTitle = Метадані;
                                 originalTitle = Metadata;
                             },
                                                         {
@@ -860,7 +860,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Selected List(s)";
+                                newTitle = "Вибраний список(-ски)";
                                 originalTitle = "Selected List(s)";
                             },
                                                         {
@@ -869,7 +869,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Selected Table(s)";
+                                newTitle = "Вибрана таблиця(-ці)";
                                 originalTitle = "Selected Table(s)";
                             },
                                                         {
@@ -878,7 +878,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "\"Smart\" Typography";
+                                newTitle = "\"Розумна\" типографіка";
                                 originalTitle = "\"Smart\" Typography";
                             },
                                                         {
@@ -887,7 +887,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "HTML Entities";
+                                newTitle = "Суб'єкти HTML";
                                 originalTitle = "HTML Entities";
                             },
                                                         {
@@ -896,7 +896,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Unwrap Paragraph(s)";
+                                newTitle = "Розгорнути абзац(и)";
                                 originalTitle = "Unwrap Paragraph(s)";
                             },
                                                         {
@@ -905,7 +905,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "\"Full\" Clean Up (All the above)";
+                                newTitle = "\"Повне\" очищення (все, що вище)";
                                 originalTitle = "\"Full\" Clean Up (All the above)";
                             }
                         );
@@ -935,7 +935,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Highlight for CriticMarkup";
+                    newTitle = "Підсвічування CriticMarkup";
                     originalTitle = "Highlight for CriticMarkup";
                 },
                                 {
@@ -944,7 +944,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Insert CriticMarkup Note";
+                    newTitle = "Вставити коментар CriticMarkup";
                     originalTitle = "Insert CriticMarkup Note";
                 },
                                 {
@@ -953,13 +953,13 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Insert Table of Contents";
+                    newTitle = "Вставити зміст";
                     originalTitle = "Insert Table of Contents";
                 }
             );
         },
                 {
-            newTitle = View;
+            newTitle = Перегляд;
             originalTitle = View;
             subItems =             (
                                 {
@@ -968,7 +968,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Typewriter Mode";
+                    newTitle = "Режим друкарської машинки";
                     originalTitle = "Typewriter Mode";
                 },
                                 {
@@ -977,7 +977,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Auto Zoom";
+                    newTitle = "Автоматичне масштабування";
                     originalTitle = "Auto Zoom";
                 },
                                 {
@@ -986,7 +986,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Line Numbers";
+                    newTitle = "Показати номери стрічок";
                     originalTitle = "Show Line Numbers";
                 },
                                 {
@@ -995,7 +995,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Paragraph Numbers";
+                    newTitle = "Показати номери абзаців";
                     originalTitle = "Show Paragraph Numbers";
                 },
                                 {
@@ -1004,12 +1004,12 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Track Changes";
+                    newTitle = "Відстежувати зміни";
                     originalTitle = "Track Changes";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "CriticMarkup Preview";
+                        newTitle = "Перегляд CriticMarkup";
                         originalTitle = "CriticMarkup Preview";
                         subItems =                         (
                                                         {
@@ -1018,7 +1018,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Highlight differences";
+                                newTitle = "Підсвітити різницю";
                                 originalTitle = "Highlight differences";
                             },
                                                         {
@@ -1027,7 +1027,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Original version";
+                                newTitle = "Оригінальна версія";
                                 originalTitle = "Original version";
                             },
                                                         {
@@ -1036,7 +1036,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Changed version";
+                                newTitle = "Змінена версія";
                                 originalTitle = "Changed version";
                             },
                                                         {
@@ -1045,7 +1045,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Disabled;
+                                newTitle = Вимкнено;
                                 originalTitle = Disabled;
                             }
                         );
@@ -1062,7 +1062,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Amber;
+                                newTitle = Бурштин;
                                 originalTitle = Amber;
                             },
                                                         {
@@ -1071,7 +1071,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Clear;
+                                newTitle = Чиста;
                                 originalTitle = Clear;
                             },
                                                         {
@@ -1080,7 +1080,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Default;
+                                newTitle = Звичайна;
                                 originalTitle = Default;
                             },
                                                         {
@@ -1089,7 +1089,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Empty;
+                                newTitle = Пуста;
                                 originalTitle = Empty;
                             },
                                                         {
@@ -1098,7 +1098,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Manuscript;
+                                newTitle = Рукопис;
                                 originalTitle = Manuscript;
                             },
                                                         {
@@ -1107,7 +1107,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = New;
+                                newTitle = Нова;
                                 originalTitle = New;
                             },
                                                         {
@@ -1116,7 +1116,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "New-Dark";
+                                newTitle = "Нова-темна";
                                 originalTitle = "New-Dark";
                             },
                                                         {
@@ -1125,7 +1125,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Plain;
+                                newTitle = Проста;
                                 originalTitle = Plain;
                             },
                                                         {
@@ -1134,7 +1134,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Pretentious;
+                                newTitle = Показна;
                                 originalTitle = Pretentious;
                             },
                                                         {
@@ -1143,7 +1143,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Simple;
+                                newTitle = Скромна;
                                 originalTitle = Simple;
                             },
                                                         {
@@ -1152,7 +1152,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Solarized;
+                                newTitle = Перетримана;
                                 originalTitle = Solarized;
                             },
                                                         {
@@ -1161,7 +1161,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Solarized (Dark)";
+                                newTitle = "Перетримана (Темна)";
                                 originalTitle = "Solarized (Dark)";
                             },
                                                         {
@@ -1170,7 +1170,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "White Rabbit";
+                                newTitle = "Білий кріль";
                                 originalTitle = "White Rabbit";
                             }
                         );
@@ -1178,7 +1178,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Outline Folding";
+                        newTitle = "Згортання за структурою";
                         originalTitle = "Outline Folding";
                         subItems =                         (
                                                         {
@@ -1187,7 +1187,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Focus/Unfocus current section";
+                                newTitle = "Фокусуватись/не фокусуватись на розділі";
                                 originalTitle = "Focus/Unfocus current section";
                             },
                                                         {
@@ -1196,7 +1196,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Focus/Unfocus current paragraph";
+                                newTitle = "Фокусуватись/не фокусуватись на абзаці";
                                 originalTitle = "Focus/Unfocus current paragraph";
                             },
                                                         {
@@ -1205,7 +1205,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold current section";
+                                newTitle = "Згорнути/розгорнути розділ";
                                 originalTitle = "Fold/Unfold current section";
                             },
                                                         {
@@ -1214,7 +1214,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold children of current section";
+                                newTitle = "Згорнути/розгорнути дочірні розділи";
                                 originalTitle = "Fold/Unfold children of current section";
                             },
                                                         {
@@ -1223,7 +1223,7 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Fold/Unfold entire document";
+                                newTitle = "Згорнути/розгорнути весь документ";
                                 originalTitle = "Fold/Unfold entire document";
                             }
                         );
@@ -1235,7 +1235,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Show Invisible Characters";
+                    newTitle = "Показати невидимі символи";
                     originalTitle = "Show Invisible Characters";
                 },
                                 {
@@ -1244,7 +1244,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Refresh Preview";
+                    newTitle = "Оновити перегляд";
                     originalTitle = "Refresh Preview";
                 },
                                 {
@@ -1253,12 +1253,12 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Preview with Marked";
+                    newTitle = "Переглянути з Marked";
                     originalTitle = "Preview with Marked";
                 },
                                 {
                     submenu =                     {
-                        newTitle = "Window Layout";
+                        newTitle = "Розташування вікон";
                         originalTitle = "Window Layout";
                         subItems =                         (
                                                         {
@@ -1267,7 +1267,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Swap Side for Preview";
+                                newTitle = "Перегляд на інший бік";
                                 originalTitle = "Swap Side for Preview";
                             },
                                                         {
@@ -1276,7 +1276,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Swap Side for Visible Sidebars";
+                                newTitle = "Поміняти місцями видимі панелі";
                                 originalTitle = "Swap Side for Visible Sidebars";
                             }
                         );
@@ -1284,7 +1284,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Zoom;
+                        newTitle = Масштабування;
                         originalTitle = Zoom;
                         subItems =                         (
                                                         {
@@ -1293,7 +1293,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Zoom Editor In";
+                                newTitle = "Наблизити редактор";
                                 originalTitle = "Zoom Editor In";
                             },
                                                         {
@@ -1302,7 +1302,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Zoom Editor Out";
+                                newTitle = "Віддалити редактор";
                                 originalTitle = "Zoom Editor Out";
                             },
                                                         {
@@ -1311,7 +1311,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Zoom Preview In";
+                                newTitle = "Наблизити перегляд";
                                 originalTitle = "Zoom Preview In";
                             },
                                                         {
@@ -1320,7 +1320,7 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 1;
-                                newTitle = "Zoom Preview Out";
+                                newTitle = "Віддалити перегляд";
                                 originalTitle = "Zoom Preview Out";
                             }
                         );
@@ -1329,7 +1329,7 @@
             );
         },
                 {
-            newTitle = Window;
+            newTitle = Вікно;
             originalTitle = Window;
             subItems =             (
                                 {
@@ -1338,7 +1338,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Minimize;
+                    newTitle = Згорнути;
                     originalTitle = Minimize;
                 },
                                 {
@@ -1347,7 +1347,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Zoom;
+                    newTitle = Оптимізувати;
                     originalTitle = Zoom;
                 },
                                 {
@@ -1356,7 +1356,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Enter Full Screen";
+                    newTitle = "На весь екран";
                     originalTitle = "Enter Full Screen";
                 },
                                 {
@@ -1365,7 +1365,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Bring All to Front";
+                    newTitle = "Всі наперед";
                     originalTitle = "Bring All to Front";
                 },
                                 {
@@ -1374,7 +1374,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle Info";
+                    newTitle = "Показати інформацію";
                     originalTitle = "Toggle Info";
                 },
                                 {
@@ -1383,7 +1383,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle TOC";
+                    newTitle = "Показати зміст";
                     originalTitle = "Toggle TOC";
                 },
                                 {
@@ -1392,7 +1392,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Toggle Preview";
+                    newTitle = "Показати перегляд";
                     originalTitle = "Toggle Preview";
                 },
                                 {
@@ -1401,7 +1401,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle References";
+                    newTitle = "Показати зноски";
                     originalTitle = "Toggle References";
                 },
                                 {
@@ -1410,7 +1410,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Toggle CriticMarkup";
+                    newTitle = "Показати CriticMarkup";
                     originalTitle = "Toggle CriticMarkup";
                 },
                                 {
@@ -1419,7 +1419,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Save HUD Panel Positions";
+                    newTitle = "Зберегти розташування індикаторів";
                     originalTitle = "Save HUD Panel Positions";
                 },
                                 {
@@ -1428,7 +1428,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Restore HUD Panel Positions";
+                    newTitle = "Відновити розташування індикаторів";
                     originalTitle = "Restore HUD Panel Positions";
                 },
                                 {
@@ -1437,7 +1437,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Left Sidebar";
+                    newTitle = "До лівої панелі";
                     originalTitle = "Go to Left Sidebar";
                 },
                                 {
@@ -1446,7 +1446,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Editor";
+                    newTitle = "До редактора";
                     originalTitle = "Go to Editor";
                 },
                                 {
@@ -1455,7 +1455,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Go to Right Sidebar";
+                    newTitle = "До правої панелі";
                     originalTitle = "Go to Right Sidebar";
                 },
                                 {
@@ -1464,13 +1464,13 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Untitled;
+                    newTitle = Неназваний;
                     originalTitle = Untitled;
                 }
             );
         },
                 {
-            newTitle = Help;
+            newTitle = Довідка;
             originalTitle = Help;
             subItems =             (
                                 {
@@ -1479,7 +1479,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "MultiMarkdown Composer Help";
+                    newTitle = "Довідка MultiMarkdown Composer";
                     originalTitle = "MultiMarkdown Composer Help";
                 },
                                 {
@@ -1488,7 +1488,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "MultiMarkdown Syntax Guide";
+                    newTitle = "Керівництво з синтаксису MultiMarkdown";
                     originalTitle = "MultiMarkdown Syntax Guide";
                 },
                                 {
@@ -1497,7 +1497,7 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Online Help";
+                    newTitle = "Довідка в мережі";
                     originalTitle = "Online Help";
                 }
             );
