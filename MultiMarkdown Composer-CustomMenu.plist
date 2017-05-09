@@ -1,6 +1,6 @@
 {
     appName = "MultiMarkdown Composer Pro (Beta)";
-    appVersion = "3.0b22";
+    appVersion = "3.0b50";
     subItems =     (
                 {
             newTitle = "MultiMarkdown Composer";
@@ -30,7 +30,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Параметри\U2026";
+                    newTitle = "Вподобання\U2026";
                     originalTitle = "Preferences\U2026";
                 },
                                 {
@@ -76,6 +76,15 @@
                     modShift = 0;
                     newTitle = "Завершити MultiMarkdown Composer";
                     originalTitle = "Quit MultiMarkdown Composer";
+                },
+                                {
+                    key = q;
+                    modAlt = 1;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Quit and Keep Windows";
+                    originalTitle = "Quit and Keep Windows";
                 }
             );
         },
@@ -89,7 +98,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = Новий документ;
+                    newTitle = Новий;
                     originalTitle = New;
                 },
                                 {
@@ -155,6 +164,15 @@
                     originalTitle = "Save\U2026";
                 },
                                 {
+                    key = S;
+                    modAlt = 0;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Save As...";
+                    originalTitle = "Save As...";
+                },
+                                {                    
                     key = E;
                     modAlt = 0;
                     modCmd = 1;
@@ -288,8 +306,8 @@
                                 modCmd = 1;
                                 modCtrl = 1;
                                 modShift = 0;
-                                newTitle = "Простий текст";
-                                originalTitle = "Plain Text";
+                                newTitle = "Підсвічений текст";
+                                originalTitle = "Highlighted Text";
                             }
                         );
                     };
@@ -350,7 +368,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Вставити як рядки таблиці";
+                                newTitle = "Вставити як рядок(-ки) таблиці";
                                 originalTitle = "Paste as Table Row(s)";
                             }
                         );
@@ -483,7 +501,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Включення з файлу";
+                                newTitle = "Файл з включення";
                                 originalTitle = "Transcluded File";
                             }
                         );
@@ -491,7 +509,7 @@
                 },
                                 {
                     submenu =                     {
-                        newTitle = Рух;
+                        newTitle = Рух\U2026;
                         originalTitle = Move;
                         subItems =                         (
                                                         {
@@ -651,7 +669,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Автоматично виправляти правопис";
+                                newTitle = "Автоматично виправляти помилки";
                                 originalTitle = "Correct Spelling Automatically";
                             }
                         );
@@ -731,7 +749,7 @@
                                 modCtrl = 0;
                                 modShift = 0;
                                 newTitle = "У верхній регістр";
-                                originalTitle = "У нижній регістр";
+                                originalTitle = "Make Upper Case";
                             },
                                                         {
                                 key = "";
@@ -739,7 +757,7 @@
                                 modCmd = 0;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "На малі літери";
+                                newTitle = "У нижній регістр";
                                 originalTitle = "Make Lower Case";
                             },
                                                         {
@@ -795,17 +813,17 @@
                     modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Почати диктування\U2026";
-                    originalTitle = "Start Dictation\U2026";
+                    newTitle = "Почати диктування";
+                    originalTitle = "Start Dictation";
                 },
                                 {
-                    key = t;
-                    modAlt = 1;
+                    key = " ";
+                    modAlt = 0;
                     modCmd = 1;
-                    modCtrl = 0;
+                    modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Емограми й символи\U2026";
-                    originalTitle = "Special Characters\U2026";
+                    newTitle = "Emoji & Symbols";
+                    originalTitle = "Emoji & Symbols";
                 }
             );
         },
@@ -963,6 +981,15 @@
             originalTitle = View;
             subItems =             (
                                 {
+                    key = "";
+                    modAlt = 0;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 1;
+                    newTitle = "Show Tab Bar";
+                    originalTitle = "Show Tab Bar";
+                },
+                                {
                     key = t;
                     modAlt = 0;
                     modCmd = 1;
@@ -997,6 +1024,15 @@
                     modShift = 0;
                     newTitle = "Показати номери абзаців";
                     originalTitle = "Show Paragraph Numbers";
+                },
+                                {
+                    key = J;
+                    modAlt = 0;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Jump To\U2026";
+                    originalTitle = "Jump To\U2026";
                 },
                                 {
                     key = x;
@@ -1062,24 +1098,6 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Бурштин;
-                                originalTitle = Amber;
-                            },
-                                                        {
-                                key = "";
-                                modAlt = 0;
-                                modCmd = 1;
-                                modCtrl = 0;
-                                modShift = 0;
-                                newTitle = Чиста;
-                                originalTitle = Clear;
-                            },
-                                                        {
-                                key = "";
-                                modAlt = 0;
-                                modCmd = 1;
-                                modCtrl = 0;
-                                modShift = 0;
                                 newTitle = Звичайна;
                                 originalTitle = Default;
                             },
@@ -1098,15 +1116,6 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = Рукопис;
-                                originalTitle = Manuscript;
-                            },
-                                                        {
-                                key = "";
-                                modAlt = 0;
-                                modCmd = 1;
-                                modCtrl = 0;
-                                modShift = 0;
                                 newTitle = Нова;
                                 originalTitle = New;
                             },
@@ -1116,8 +1125,26 @@
                                 modCmd = 1;
                                 modCtrl = 0;
                                 modShift = 0;
-                                newTitle = "Нова-темна";
+                                newTitle = "Нова (не для східних мов)";
+                                originalTitle = "New (not CJK-safe)";
+                            },
+                                                        {
+                                key = "";
+                                modAlt = 0;
+                                modCmd = 1;
+                                modCtrl = 0;
+                                modShift = 0;
+                                newTitle = "Нова Темна";
                                 originalTitle = "New-Dark";
+                            },
+                                                        {
+                                key = "";
+                                modAlt = 0;
+                                modCmd = 1;
+                                modCtrl = 0;
+                                modShift = 0;
+                                newTitle = "Нова темна (не для східних мов)";
+                                originalTitle = "New-Dark (not CJK-safe)";
                             },
                                                         {
                                 key = "";
@@ -1342,13 +1369,31 @@
                     originalTitle = Minimize;
                 },
                                 {
+                    key = m;
+                    modAlt = 1;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Згорнути все All";
+                    originalTitle = "Minimize All";
+                },
+                                {
                     key = "";
                     modAlt = 0;
-                    modCmd = 1;
+                    modCmd = 0;
                     modCtrl = 0;
                     modShift = 0;
                     newTitle = Оптимізувати;
                     originalTitle = Zoom;
+                },
+                                {
+                    key = "";
+                    modAlt = 1;
+                    modCmd = 0;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Оптимізувати все";
+                    originalTitle = "Zoom All";
                 },
                                 {
                     key = f;
@@ -1360,6 +1405,42 @@
                     originalTitle = "Enter Full Screen";
                 },
                                 {
+                    key = "\t";
+                    modAlt = 0;
+                    modCmd = 0;
+                    modCtrl = 1;
+                    modShift = 1;
+                    newTitle = "Показати попередню вкладку";
+                    originalTitle = "Show Previous Tab";
+                },
+                                {
+                    key = "\t";
+                    modAlt = 0;
+                    modCmd = 0;
+                    modCtrl = 1;
+                    modShift = 0;
+                    newTitle = "Показати наступну вкладку";
+                    originalTitle = "Show Next Tab";
+                },
+                                {
+                    key = "";
+                    modAlt = 0;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Вкладку у нове вікно";
+                    originalTitle = "Move Tab to New Window";
+                },
+                                {
+                    key = "";
+                    modAlt = 0;
+                    modCmd = 1;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Зібрати всі вікна";
+                    originalTitle = "Merge All Windows";
+                },
+                                {
                     key = "";
                     modAlt = 0;
                     modCmd = 1;
@@ -1369,12 +1450,21 @@
                     originalTitle = "Bring All to Front";
                 },
                                 {
+                    key = "";
+                    modAlt = 1;
+                    modCmd = 0;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "Організувати на передньому плані";
+                    originalTitle = "Arrange in Front";
+                },
+                                {
                     key = I;
                     modAlt = 0;
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Показати інформацію";
+                    newTitle = "Показати/приховати інформацію";
                     originalTitle = "Toggle Info";
                 },
                                 {
@@ -1383,7 +1473,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Показати зміст";
+                    newTitle = "Показати/приховати зміст";
                     originalTitle = "Toggle TOC";
                 },
                                 {
@@ -1392,7 +1482,7 @@
                     modCmd = 1;
                     modCtrl = 1;
                     modShift = 0;
-                    newTitle = "Показати перегляд";
+                    newTitle = "Показати/приховати перегляд";
                     originalTitle = "Toggle Preview";
                 },
                                 {
@@ -1401,7 +1491,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Показати зноски";
+                    newTitle = "Показати/приховати зноски";
                     originalTitle = "Toggle References";
                 },
                                 {
@@ -1410,7 +1500,7 @@
                     modCmd = 1;
                     modCtrl = 0;
                     modShift = 0;
-                    newTitle = "Показати CriticMarkup";
+                    newTitle = "Показати/приховати CriticMarkup";
                     originalTitle = "Toggle CriticMarkup";
                 },
                                 {
@@ -1457,15 +1547,6 @@
                     modShift = 0;
                     newTitle = "До правої панелі";
                     originalTitle = "Go to Right Sidebar";
-                },
-                                {
-                    key = "";
-                    modAlt = 0;
-                    modCmd = 1;
-                    modCtrl = 0;
-                    modShift = 0;
-                    newTitle = Неназваний;
-                    originalTitle = Untitled;
                 }
             );
         },
@@ -1499,6 +1580,15 @@
                     modShift = 0;
                     newTitle = "Довідка в мережі";
                     originalTitle = "Online Help";
+                },
+                                {
+                    key = "";
+                    modAlt = 0;
+                    modCmd = 0;
+                    modCtrl = 0;
+                    modShift = 0;
+                    newTitle = "MultiMarkdown User's Guide";
+                    originalTitle = "MultiMarkdown User's Guide";
                 }
             );
         }
